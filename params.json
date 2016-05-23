@@ -1,6 +1,6 @@
 {
   "name": "Heroku | Microsoft .NET Core Buildpacks",
   "tagline": "This repo is a very simple demonstration of running an ASP.NET Core web site on Heroku. This uses Visual Studio code and the ASP.NET Core Buildpack for Heroku and can be fully customized once deployed. ",
-  "body": "### Welcome to .NET Core on Heroku.\r\nThis project is dedicated to simply running .NET Core and ASP.NET Core on Heroku using custom buildpacks.\r\n\r\n### Who owns the Project and Buildpacks?\r\nSofttrends is the Heroku partner who owns and is maintaining the .NET Core and ASP.NET Core buildpacks for Heroku. For more details, check out www.softtrends.com or contact the project owner at samant@softtrends.com\r\n",
+  "body": "### Welcome to .NET Core on Heroku.\r\nThis project is dedicated to running .NET Core and ASP.NET Core on Heroku using custom buildpacks. To begin, click the following Heroku Button to deploy a very basic ASP.NET Core app, built in Visual Studio, to Heroku. \r\n\r\n[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)\r\n\r\n### Who owns the Project and Buildpacks?\r\nSofttrends is the Heroku partner who owns and is maintaining the .NET Core and ASP.NET Core buildpacks for Heroku. For more details, check out www.softtrends.com or contact the project owner at samant@softtrends.com\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
