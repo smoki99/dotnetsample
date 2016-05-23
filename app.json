@@ -3,5 +3,10 @@
   "description": "This will deploy a very basic ASP.NET Core Framework App and run it on Heroku using the new ASP.NET Core Buildpack",
   "repository": "http://herokumx.github.io/herokumxnet/",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": [".NET", "Microsoft", "ASP.NET"]
+  "keywords": [".NET", "Microsoft", "ASP.NET"],
+  "buildpacks": [
+    {
+      "url": "https://github.com/softtrendsllc/aspnet5-buildpack.git"
+    }
+  ]
 }
