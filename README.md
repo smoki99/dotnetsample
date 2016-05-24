@@ -12,18 +12,13 @@ This project deploys a sample ASP.NET 5 web application to Heroku using the late
 *   [Gulp](http://go.microsoft.com/fwlink/?LinkId=518007) and [Bower](http://go.microsoft.com/fwlink/?LinkId=518004) for managing client-side libraries
 *   Theming using [Bootstrap](http://go.microsoft.com/fwlink/?LinkID=398939)
 
-## Welcome to .NET Core on Heroku.
-This project is dedicated to running .NET Core and ASP.NET Core on Heroku using custom buildpacks. To begin, click the following Heroku Button to deploy a very basic ASP.NET Core app, built in Visual Studio, to Heroku. 
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/herokumx/herokumxnet)
-
 ## What is .NET Core? 
 A re-imagined version of .NET that is suitable to be deployed alongside web apps and places a strong focus on a new set of assemblies and APIs based on the PCL 2.0 profile. This is a full open source project, with Microsoft taking contributions and developing in the open. This is owned and supported by Microsoft.
 
 ## How is this different from Mono? 
 The version published under Mono is a snapshot of the .NET Framework source code. While Microsoft is publishing the source code, they are not actively developing Mono, nor are they taking patches. This is not supported by Microsoft. To read more about the differences, check out http://www.mono-project.com/docs/about-mono/dotnet-integration/
 
-## How to
+## How to Enhance this app in Visual Studio
 
 *   [Add a Controller and View](http://go.microsoft.com/fwlink/?LinkID=398600)
 *   [Add an appsetting in config and access it in app.](http://go.microsoft.com/fwlink/?LinkID=699562)
@@ -33,7 +28,7 @@ The version published under Mono is a snapshot of the .NET Framework source code
 *   [Add client packages using Bower.](http://go.microsoft.com/fwlink/?LinkId=699318)
 *   [Target development, staging or production environment.](http://go.microsoft.com/fwlink/?LinkId=699319)
 
-## Overview
+## Overview of ASP.NET
 
 *   [Conceptual overview of what is ASP.NET 5](http://go.microsoft.com/fwlink/?LinkId=518008)
 *   [Fundamentals of ASP.NET 5 such as Startup and middleware.](http://go.microsoft.com/fwlink/?LinkId=699320)
@@ -43,10 +38,5 @@ The version published under Mono is a snapshot of the .NET Framework source code
 *   [Develop on different platforms](http://go.microsoft.com/fwlink/?LinkID=699322)
 *   [Read more on the documentation site](http://go.microsoft.com/fwlink/?LinkID=699323)
 
-## Run & Deploy
-
-*   [Run your app](http://go.microsoft.com/fwlink/?LinkID=517851)
-*   [Run your app on .NET Core](http://go.microsoft.com/fwlink/?LinkID=517852)
-*   [Run commands in your project.json](http://go.microsoft.com/fwlink/?LinkID=517853)
 
 We would love to hear your [feedback](https://www.heroku.com/contact)
