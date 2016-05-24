@@ -8,7 +8,8 @@ This project deploys a sample ASP.NET 5 web application to Heroku using the late
 </a>
 ## This application consists of:
 
-*   Sample Visual Studio pages using ASP.NET MVC 6
+*   Sample Visual Studio web app using ASP.NET MVC 6
+*   Heroku Buildpack running the ASP.NET Core latest release
 *   [Gulp](http://go.microsoft.com/fwlink/?LinkId=518007) and [Bower](http://go.microsoft.com/fwlink/?LinkId=518004) for managing client-side libraries
 *   Theming using [Bootstrap](http://go.microsoft.com/fwlink/?LinkID=398939)
 
