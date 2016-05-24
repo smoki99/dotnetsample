@@ -2,7 +2,7 @@
   "name": "ASP.NET Core on Heroku",
   "description": "This will deploy a very basic ASP.NET Core Framework App and run it on Heroku using the new ASP.NET Core Buildpack",
   "repository": "http://herokumx.github.io/herokumxnet/",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "logo": "https://raw.githubusercontent.com/herokumx/herokumxnet/master/NETChatterGroup.png",
   "keywords": [".NET", "Microsoft", "ASP.NET"],
   "buildpacks": [
     {
