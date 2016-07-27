@@ -8,5 +8,10 @@
     {
       "url": "https://github.com/softtrendsllc/aspnet5-buildpack.git"
     }
-  ]
+  ],
+  "runtimeOptions": {
+     "configProperties": {
+       "System.GC.Server": true
+     }
+   }
 }
