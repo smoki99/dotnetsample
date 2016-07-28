@@ -43,7 +43,10 @@
     "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
       "version": "1.0.0-preview2-final",
       "type": "build"
-    }
+    },
+    "Npgsql.EntityFrameworkCore.PostgreSQL": "1.0.1",
+    "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.0.1",
+    "Npgsql": "3.1.6"
   },
 
   "tools": {
@@ -95,7 +98,8 @@
   "scripts": {
     "precompile": [ "dotnet bundle" ],
     "prepublish": [ "bower install" ],
-    "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
+    "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ],
+    "web-local": [ "dotnet run --server.urls http://+:5000"]
   },
 
   "tooling": {

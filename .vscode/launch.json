@@ -7,16 +7,16 @@
             "request": "launch",
             "preLaunchTask": "build",
             "program": "${workspaceRoot}/bin/Debug/netcoreapp1.0/dotnetbeispiel1.dll",
-            "args": [],
+            "args": ["--server.urls","http://+:5000"],
             "cwd": "${workspaceRoot}",
-            "stopAtEntry": false
+            "stopAtEntry": true
         },
         {
             "name": ".NET Core Launch (web)",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceRoot}/bin/Debug/netcoreapp1.0/dotnetbeispiel1.dll",
+            "program": "${workspaceRoot}/bin/Debug/netcoreapp1.0/dotnetbeispiel1.dll --server.urls http://+:5000",
             "args": [],
             "cwd": "${workspaceRoot}",
             "stopAtEntry": false,

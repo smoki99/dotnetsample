@@ -8,6 +8,13 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using System.IO;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Npgsql.EntityFrameworkCore.PostgreSQL;
+using Npgsql.EntityFrameworkCore;
+using Npgsql;
+using Microsoft.EntityFrameworkCore;
+using herokumxnet.Entities;
+using herokumxnet.Services;
 
 namespace herokumxnet
 {
@@ -30,6 +37,14 @@ namespace herokumxnet
         {
             // Add framework services.
             services.AddMvc();
+
+             services.AddEntityFrameworkNpgsql()
+                .AddDbContext<ApplicationDbContext>(o =>
+                o.UseNpgsql(Environment.GetEnvironmentVariable("PGS_SAMPLE1")));
+
+            services.AddSingleton(provider => Configuration);
+
+            services.AddScoped<IStudentData, StudentData>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -38,14 +53,14 @@ namespace herokumxnet
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
-            if (env.IsDevelopment())
-            {
+            //if (env.IsDevelopment())
+            //{
                 app.UseDeveloperExceptionPage();
-            }
-            else
-            {
-                app.UseExceptionHandler("/Home/Error");
-            }
+            //}
+            //else
+            //{
+            //    app.UseExceptionHandler("/Home/Error");
+            //}
 
             //app.UseIISPlatformHandler();
 
