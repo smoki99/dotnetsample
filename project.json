@@ -71,7 +71,9 @@
 
   "buildOptions": {
     "emitEntryPoint": true,
-    "preserveCompilationContext": true
+    "preserveCompilationContext": true,
+    "outputName": "dotnetbeispiel1"
+
   },
 
   "runtimeOptions": {
