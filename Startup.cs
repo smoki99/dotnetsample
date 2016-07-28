@@ -64,8 +64,10 @@ namespace herokumxnet
             var exePath= System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName;
             var directoryPath = Path.GetDirectoryName(exePath);
 
+            System.Console.Write(args[1]);
+
             var host = new WebHostBuilder()
-                .UseKestrel().UseUrls("http://*:80")
+                .UseKestrel().UseUrls(args[1])
                 .UseContentRoot(Directory.GetCurrentDirectory())      
                 .UseStartup<Startup>()
                 .Build();
